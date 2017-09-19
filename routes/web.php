@@ -13,7 +13,7 @@
 
 $router->get('/', function () use ($router) {
     return view('idee');
-
-    ///return $router->app->version();
+//    return $router->app->version();
 });
 
+//$router->get('/token', '');
